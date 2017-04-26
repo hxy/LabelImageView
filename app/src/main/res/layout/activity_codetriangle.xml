@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <hy.labelimageview.view.LabelImageView
+        android:id="@+id/labelIV"
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:background="#bbb"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic_test5"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="side_size"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id="@+id/edit_sideSize"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="150"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="专题"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text_size"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id="@+id/edit_textSize"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="30"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="label_color"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/labelColor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="颜色1"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/labelColor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="颜色2"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text_color"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/textColor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="颜色1"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/textColor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="颜色2"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/okBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:textSize="14sp"/>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LabelImageView">
+        <attr name="bar_width" format="dimension"/>
+        <attr name="bar_height" format="dimension"/>
+        <attr name="bar_topMargin" format="dimension"/>
+        <attr name="bar_radius" format="integer"/>
+        <attr name="side_size" format="dimension"/>
+        <attr name="label_color" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="text" format="string"/>
+        <attr name="label_type" format="integer">
+            <enum name="bar" value="0" />
+            <enum name="triangle" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <hy.labelimageview.view.LabelImageView
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:background="#bbb"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic_test5"
+        app:label_type="bar"
+        app:bar_width="50dp"
+        app:bar_height="25dp"
+        app:bar_topMargin="5dp"
+        app:bar_radius="4"
+        app:text="专题"
+        app:label_color="#ac8"
+        app:text_color="#96b"
+        app:text_size="12sp"/>
+</LinearLayout>
