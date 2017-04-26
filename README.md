@@ -3,5 +3,5 @@
 
 上图：
 
-![image](https://github.com/hxy/LabelImageView/blob/master/Screenshot_1493190723.png)
-![image](https://github.com/hxy/LabelImageView/blob/master/Screenshot_1493190762.png)
+![image](https://github.com/hxy/LabelImageView/blob/master/1493192128(1).jpg)
+![image](https://github.com/hxy/LabelImageView/blob/master/14931921601.jpg)
